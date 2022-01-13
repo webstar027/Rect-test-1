@@ -1,27 +1,27 @@
-import { createContext } from 'react'
+import { createContext } from "react";
 
 export const themes = {
   light: {
-    backgroundColor: '#f8f8f8',
-    color: '#000',
+    backgroundColor: "#f8f8f8",
+    color: "#000",
   },
   black: {
-    backgroundColor: '#000',
-    color: '#fff',
+    backgroundColor: "#000",
+    color: "#fff",
   },
-}
+};
 
 export const ThemeContext = createContext({
   theme: themes.light,
   toggleTheme: () => {},
-})
+});
 
 export interface Themec {
-  color: string
-  backgroundColor: string
+  color: string;
+  backgroundColor: string;
 }
 
 export interface ContextTheme {
-  theme: Themec
-  toggleTheme: Function
+  theme: Themec;
+  toggleTheme: Function;
 }

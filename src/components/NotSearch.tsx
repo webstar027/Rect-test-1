@@ -1,13 +1,13 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople'
+import React from "react";
+import Typography from "@material-ui/core/Typography";
+import EmojiPeopleIcon from "@material-ui/icons/EmojiPeople";
 
 const NotSearch = () => {
-	return (
+  return (
     <Typography variant="h5" align="center" color="textSecondary" paragraph>
       Try searching for something using the field above.
     </Typography>
-	)
-}
+  );
+};
 
-export default NotSearch
+export default NotSearch;
